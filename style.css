@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #161313;
+    color: #efefef;
+    line-height: 1.6;
+  }
+  .inicial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .circle-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .circle {
+    width: 300px; 
+    height: 300px;
+    background-color: palevioletred;
+    border-radius: 50%; 
+    position: relative; 
+    margin-right: 20%;
+  }
+  
+  .circle img {
+    width: 350px; 
+    height: auto; 
+    position: absolute;
+    top: -25px; 
+    left: -25px;
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: palevioletred;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  
+  header {
+    background-color: palevioletred;
+    padding: 20px;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ 
+  }
+  
+  .menu ul li {
+    display: inline;
+  }
+  
+  .menu ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+  }
+  
+  .menu ul li a:hover {
+    background-color: pink;
+  }
+  
+  
+  .inicial {
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #be33a5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+  }
+  
+  .inicial h1 {
+    font-size: 48px;
+    margin-bottom: 0px;
+    text-align: left;
+    color: #fffcff;
+  }
+  
+  .inicial p{
+    color: palevioletred;
+    text-align: left;
+  
+  }
+  
+  .inicial h3 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fffeff;
+    text-align: left;
+  
+  }
+  
+  .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 20px;
+    gap: 20px; 
+    
+    
+    
+  }
+  
+  .about-content {
+    flex: 2;
+  }
+  
+  .img-container {
+    flex: 1; 
+  }
+  
+  .img-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto; 
+    border-radius: 10%; 
+    object-fit: cover;
+    margin-left: 30%;
+  }
+  
+  
+  .about h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: palevioletred;
+    margin-left: 6%;
+  }
+  
+  .about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 50px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  
+  .knowledge {
+    text-align: center;
+    padding: 50px;
+    background-color: #121212;
+  }
+  
+  .knowledge h2 {
+    color: palevioletred; 
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  
+  .card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); 
+  }
+  
+  .card img {
+    width: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    color: palevioletred;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #dcdcdc;
+  }
+  
+  
+  .projects {
+    padding: 50px;
+    background-color: #100d0d;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: palevioletred;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    color: palevioletred;
+  }
+  
+  .project p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .contact {
+    padding: 50px;
+    background-color: #110e0e;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact ul li {
+    display: inline;
+  }
+  
+  .contact ul li a {
+    font-size: 18px;
+    color: pink;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    
+  }
+  
+  .contact ul li a:hover {
+    background-color: palevioletred;
+    color: #f5ebeb;
+  }
+footer{
+    color: pink;
+}
+footer h3{
+    color: pink;
+    text-align: center;
+  }
