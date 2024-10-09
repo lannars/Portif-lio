@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Alanna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a id="aboutNav" href="#about">Sobre Mim</a></li>
+                <li><a id="projectsNav" href="#projects">Projetos</a></li>
+                <li><a id="knowledgeNav" href="#knowledge">Conhecimentos</a></li>
+                <li><a id="contactNav" href="#contact">Fale Comigo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="inicial">
+        <div class="content">
+            <p>Hello world👋🏼</p>
+            <h1>Eu sou a Alanna</h1>
+            <h3>Estudante de Desenvolvimento de Sistemas no SENAI</h3>
+            <div class="circle-container">
+                <div class="circle">
+                    <img src="download.png" alt="Imagem arredondada">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="img-container">
+            <img src="_MG_8157.jpg" alt="Imagem de Alanna">
+        </div>
+        <div class="about-content">
+            <h2>Sobre Mim</h2>
+            <p>Olá, meu nome é Alanna, tenho 16 anos e moro na cidade de São Carlos. Atualmente estou cursando o segundo ano do ensino médio no SESI-SENAI e fazendo o curso de Desenvolvimento de Sistemas. Meu maior objetivo é me formar e passar em uma faculdade que me deixe realizada. Também tenho planos de viajar o mundo, conhecer novas culturas e aprender mais sobre o mundo.</p>
+        </div>
+      
+    </section>
+    
+
+    <section id="knowledge" class="knowledge">
+        <h2>Conhecimentos</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="download (1).png" alt="HTML Icon">
+                <h3>HTML5</h3>
+                <p>HTML é a linguagem de marcação utilizada para estruturar e definir o conteúdo de páginas web, essencial para criar sites e aplicações web.</p>
+            </div>
+            <div class="card">
+                <img src="download (2).png" alt="CSS Icon">
+                <h3>CSS3</h3>
+                <p>CSS é a linguagem de estilo que modifica o layout de páginas web, complementando o HTML para facilitar o desenvolvimento.</p>
+            </div>
+            <div class="card">
+                <img src="download (3).png" alt="JavaScript Icon">
+                <h3>JavaScript</h3>
+                <p>JavaScript é uma linguagem de programação usada para criar interações dinâmicas em páginas web e adicionar funcionalidades.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projects" class="projects">
+        <h2>Projetos</h2>
+        <div class="project">
+            <h3>Calculadora</h3>
+            <p>Nesse projeto, realizado no Senai, construímos uma calculadora em html, java e css. </p>
+        </div>
+        <div class="project">
+            <h3>Esse Portifólio</h3>
+            <p>Essse portifólio também é um projeto Senai que foi realizado utilizando linguagens de marcação e de estilização.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Meio ambiete</h3>
+            <p>O projeto do meio ambiente ainda está em realização no sesi, tal projeto será feito em html e css e será
+                para contribuir com o meio ambiente e ajudar pessoas a ter uma participação no meio ambiente.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Fale Comigo!</h2>
+        <ul>
+            <li><a href="alannariossantos1@gmail.com" title="Enviar e-mail">Enviar e-mail</a></li>
+        </ul>
+    </section>
+    <footer>
+        <h3>Alanna &copy; Portifólio senai - 2024</h3>
+    </footer>
+</body>
+</html>
